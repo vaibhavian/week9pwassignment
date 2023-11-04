@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: white;
+    margin-top: 40px;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 10px inset;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+div {
+    padding-left: 10px;
+}
+label {
+    font-weight: lighter;
+}
+input,label {
+    color: black;
+}
+.group {
+    margin-bottom: 10px;
+}
+
+.group input {
+    width: 90%;
+    padding: 5px;
+}
+.group select {
+    width: 95%;
+    padding: 8px;
+    border: 1cap black solid;
+    border-radius: 3px;
+}
+.group input[type="submit"] {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    width: 95%;
+}
+.group input[type="submit"]:hover {
+    background-color: rgb(59, 58, 58);
+    color: white;
+  }
